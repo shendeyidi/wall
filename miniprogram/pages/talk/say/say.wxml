@@ -1,0 +1,11 @@
+<view class="container">
+  <form bindsubmit="submit">
+    <textarea class="area" value="{{message}}" bindblur="sayChange" placeholder-style="color:#AAAAAA"
+      placeholder="你此刻的想法是......">
+    </textarea>
+    <view class="footer">
+      <button formType="submit" type="primary" style="margin-left:0rpx; margin-right:0rpx;">发表</button>
+    </view>
+  </form>
+  
+</view>

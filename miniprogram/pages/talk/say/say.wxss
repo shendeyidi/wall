@@ -1,0 +1,21 @@
+.area{
+  margin: 0 auto;
+  padding: 3rpx;
+  border: 6rpx solid #28a745;
+}
+
+.footer{
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; 
+}
+
+.container{
+  margin: 10rpx
+}
+
+.say{
+  margin-left: 0rpx; 
+  margin-right: 10rpx;
+}

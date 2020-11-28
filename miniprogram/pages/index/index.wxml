@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="toolbar">
+    <image class="say" src="../../images/say.png" bindtap="say"/>
+  </view>  
+  <view wx:for="{{messages}}" wx:for-item="message" wx:key="index">
+    {{message.message}}
+  </view>
+
+</view>

@@ -1,0 +1,19 @@
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.say{
+  width: 50rpx;
+  height: 50rpx;
+  background-repeat:no-repeat;
+}
+
+.toolbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;  
+}
